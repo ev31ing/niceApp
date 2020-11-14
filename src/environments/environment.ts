@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  firebase: {
   apiKey: "AIzaSyDJ3plS3rxwiV8B6kUZD-bjQlForqU-dZY",
     authDomain: "niceapp-a483d.firebaseapp.com",
     databaseURL: "https://niceapp-a483d.firebaseio.com",
@@ -12,6 +13,7 @@ export const environment = {
     messagingSenderId: "885353603785",
     appId: "1:885353603785:web:63c40ff0e95acfe1dd6318",
     measurementId: "G-89XQD2P5W6"
+  }
 };
 
 /*
