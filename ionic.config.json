@@ -1,5 +1,7 @@
 {
   "name": "niceApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
