@@ -12,6 +12,7 @@ export class LoginPage implements OnInit {
 
   validations_form: FormGroup;
   errorMessage: string = '';
+  userData: any = {};
 
   constructor(
 

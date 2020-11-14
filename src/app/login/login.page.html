@@ -40,4 +40,8 @@
   <p class="go-to-register">
     No account yet? <a (click)="goToRegisterPage()">Create an account.</a>
   </p>
+  <div id="container">
+    <p>{{ userData | json }}</p>
+    <ion-button (click)="googleSignIn()" class="google"><ion-icon name="logo-google"></ion-icon></ion-button>
+</div>
 </ion-content>
