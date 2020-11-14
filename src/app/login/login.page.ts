@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { NavController } from '@ionic/angular';
 import { AuthenticateService } from '../services/authentication.service';
+import { GooglePlus } from '@ionic-native/google-plus/ngx';
 
 @Component({
   selector: 'app-login',
@@ -18,7 +19,8 @@ export class LoginPage implements OnInit {
 
     private navCtrl: NavController,
     private authService: AuthenticateService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private googlePlus: GooglePlus
 
   ) { }
 
@@ -58,6 +60,12 @@ export class LoginPage implements OnInit {
       }, err => {
         this.errorMessage = err.message;
       })
+  }
+
+  googleSignIn() {
+    this.googlePlus.login({})
+      .then(result => this.userData = result)
+      .catch(err => this.userData = `Error ${JSON.stringify(err)}`);
   }
 
   goToRegisterPage() {
