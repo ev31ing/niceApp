@@ -5,9 +5,6 @@ This is a nice Ionic Application using Google's Firebase Authentication services
 ## TODO
 
 
-+Add Google SignIn
+- [x]Add Google SignIn
 
-+Add Facebook SignIn
-
-+???
-+Maybe some other stuff...
+- [ ]Add Facebook SignIn
