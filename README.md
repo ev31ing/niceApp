@@ -6,5 +6,3 @@ This is a nice Ionic Application using AngularJS and Google's Firebase Authentic
 
 
 - [x]Add Google SignIn
-
-- [ ]Add Facebook SignIn
