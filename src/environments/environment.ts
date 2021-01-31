@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-  apiKey: "AIzaSyDJ3plS3rxwiV8B6kUZD-bjQlForqU-dZY",
-    authDomain: "niceapp-a483d.firebaseapp.com",
-    databaseURL: "https://niceapp-a483d.firebaseio.com",
-    projectId: "niceapp-a483d",
-    storageBucket: "niceapp-a483d.appspot.com",
-    messagingSenderId: "885353603785",
-    appId: "1:885353603785:web:63c40ff0e95acfe1dd6318",
-    measurementId: "G-89XQD2P5W6"
+    apiKey: "AIzaSyAk8f1vNP4B_J-LdS-XTMlCLAgkIzABwEA",
+    authDomain: "niceapp-1c4bc.firebaseapp.com",
+    projectId: "niceapp-1c4bc",
+    storageBucket: "niceapp-1c4bc.appspot.com",
+    messagingSenderId: "314195715841",
+    appId: "1:314195715841:web:17dbe6e83a19e547171d00",
+    measurementId: "G-67D0E70TPZ"
   }
 };
 
